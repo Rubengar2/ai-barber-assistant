@@ -1,0 +1,15 @@
+# Ignorar entornos virtuales
+venv/
+env/
+.venv/
+
+# Ignorar archivos de entorno (SEGURIDAD CRÍTICA)
+.env
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.pyc
+
+# Ignorar carpetas de VS Code y sistema
+.vscode/
+.DS_Store
